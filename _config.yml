@@ -1,14 +1,10 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
-
-# Build settings
+title: abuelwafa
+email: abuelwafa@abuelwafa.net
+description: Mohamed Ali Abuelwafa is a web developer with many years of experience in various web technologies with thorough experience in Javascript, Node.js, Frontend web development and Web Applications.
+baseurl: ""
+url: "http://abuelwafa.net/"
 markdown: kramdown
+exclude: ["node_modules", "package.json", "Gruntfile.js", "server-config.json", "README.md", "TODO.md"]
+sass:
+    style: compressed

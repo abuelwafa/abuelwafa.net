@@ -1,23 +1,25 @@
 ---
-layout: default
+layout: page
 ---
 
-<div class="home">
+<div class="home-content">
 
-  <h1 class="page-heading">Posts</h1>
+    <img src="/img/abuelwafa.jpg" alt="Mohamed Ali Abuelwafa" />
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <p>Welcome to my personal website<!--  &#38; blog -->. I'm Mohamed Ali Abuelwafa, A web developer with many years of experience in various web technologies with thorough experience in Javascript, Node.js, Frontend web development and Web Applications.</p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <ul class="nav-links" role="nav">
+        <li><a href="{{ "about" | prepend: site.baseurl }}">More About me</a></li>
+        <li><a href="mailto:abuelwafa@abuelwafa.net" target="_blank">Contact</a></li>
+        <li><a href="{{ "abuelwafa-cv.pdf" | prepend: site.baseurl }}" target="_blank">CV</a></li>
+    </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <ul class="social-list">
+        <li><a href="https://twitter.com/abuelwafa" title="Abuelwafa on Twitter" target="_blank" class="social-link"><span class="icon-twitter-square"></span></a></li>
+        <li><a href="https://www.linkedin.com/in/abuelwafa" target="_blank" title="" class="social-link"><span class="icon-linkedin-square"></span></a></li>
+        <li>
+            <a href="https://github.com/abuelwafa" target="_blank" title="Abuelwafa on Github" class="social-link"><span class="icon-github-square"></span></a>
+        </li>
+    </ul>
 
-</div>
+</div><!-- end of .home-content -->
