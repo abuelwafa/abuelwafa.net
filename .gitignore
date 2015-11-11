@@ -1,2 +1,24 @@
-_site
-.sass-cache
+# os dump files
+.DS_Store
+Desktop.ini
+$RECYCLE.BIN/
+Thumbs.db
+._*
+.Trashes
+.Spotlight-V100
+
+/**/.sass-cache
+/node_modules
+/bower_components
+_site/*
+
+/.vagrant*/
+
+# vim generated .swp files
+**/*.swp
+
+server-config.json
+.jekyll-metadata
+
+
+/temp/*
